@@ -1,0 +1,68 @@
+
+.about-us .about-skill{
+    margin: 9rem  auto 0 auto;
+    position: relative;
+    padding: 15px 80px;
+}
+
+.about-us .about-skill::before{
+    content: '';
+    height: 300px;
+    width: 100%;
+    background: linear-gradient(to right, rgba(41, 10, 10, 0.39), rgba(10, 10, 51, 0.295));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    z-index: -1;
+}
+
+.about-us h1{
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.about-us  h2{
+    color: var(--secondary-color);
+    font-size: 1rem;
+    margin: 2rem 0 .2rem 0;
+}
+
+.about-us img{
+    width: 50%;
+    float: right;
+}
+
+.about-us  article{margin-bottom: 3rem;}
+
+.about-us  p{
+    color: var(--secondary-color);
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.about-us .about-institute{
+    background: linear-gradient(to right, rgba(41, 10, 10, 0.39), rgba(10, 10, 51, 0.295));
+}
+
+.about-us .about-institute h1{
+    text-align: center;
+}
+
+.about-us .about-institute img{
+    width: 40%;
+    float: left;
+    margin: 1rem .6rem .4rem .6rem;
+}
+
+.about-us .about-founder img{
+    width: 30%;
+}
+
+.about-us .about-institute .text h3{
+    font-size: 1rem;
+    color: rgb(153, 153, 153);
+    font-weight: bold;
+}
+

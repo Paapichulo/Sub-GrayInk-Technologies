@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Gray, GrayInk, Tech, Website Development, Coding, Technology, Web Design">
+    <title>Course Registration | GrayInk Technologies</title>
+    <link rel="shortcut icon" href="assets/img/Logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/courseRegistration.css">
+    <link rel="stylesheet" href="css/media-screen.css">
+    <link rel="stylesheet" href="fonts/css/all.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("JnLvpQobo6HfQTk56");
+        })();
+    </script>
+</head>
+<body>
+    <header id="">
+        <div class="loader-wrapper">
+            <div class="loader load-1"></div>
+            <div class="loader load-2"></div>
+            <div class="loader load-3"></div>
+            <div class="loader load-4"></div>
+            <div class="loader load-5"></div>
+            <div class="loader load-6"></div>
+            <div class="loader load-7"></div>
+            <p>Please wait while page is loading...</p>
+        </div>
+        <nav id="nav" class="nav">
+            <div class="brand">
+                <img src="assets/img/Logo.png" alt="">
+            </div>
+
+            <div class="collapse">
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About</a></li>
+                        <li><a href="projectsPage-1.html">Projects</a></li>
+                        <li><a href="contact_us.html">Contact</a></li>
+                        <div class="get-started">
+                            <a href="courseRegistration.html" class="btn">Get Started</a>
+                       </div>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="toggle-btn">
+                <div class="burger-container">
+                  <div class="burger"></div>
+                  <div class="burger"></div>
+                  <div class="burger"></div>
+                </div>
+              </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="registration-section">  
+            <div class="success-modal">
+                <div class="modal-item">
+                 <img src="/assets/img/success-tick.png" class="modal-img">
+                    <h1 class="modal-success-h1">Registration Successfull!</h1>
+                    <h3 class="ref-id-Div">Your Referral Id: <span class="ref-id">RaphaelGITech_GhT654</span></h3>
+                    <p class="modal-p">Your details has been submitted.</p>
+                    <p class="modal-p">We will contact you via the provided information.</p>
+                    <p class="modal-p">Kindly choose any payment option to validate registration.</p>
+                    <div class="modal-btns">
+                        <div class="pay-online-div">
+                            <button class="payNow success-btn">Proceed to payment..</button>
+                            <h5>Pay Online</h5>
+                        </div>
+                       <div class="pay-later-div">
+                            <form action="" class="form">
+                                <button type="button" value="Pay Later" class="payLater success-btn">Pay Later</button>
+                            </form>
+                            <h5>Pay Cash</h5>
+                        </div>
+                    </div>
+                </div>
+             </div>
+
+         
+             <div class="error-modal">
+                <div class="modal-item">
+                 <img src="/assets/img/error-icon.png" class="modal-img">
+                    <h1 class="modal-error-h1">An error occurred</h1>
+                    <p class="modal-p">Try again</p>
+                    <p class="modal-p">If error continues, contact us via our whatsapp info</p>
+                    <button class="error-btn">Ok</button>
+                </div>
+             </div>
+            <div class="items container">
+                <marquee behavior="scroll" direction="left">
+                    28% Discount Offer Curently Ongoing - Register Now!
+                </marquee>
+                <h1>Course Registration</h1>
+                <p>Fill up the registration form and our team will contact you on your next step.</p>
+                <div class="form-wrapper">
+                    <form class="form" method="post">
+                        <div class="field-holder">
+                            <input type="text" name="name" id="fname" required>
+                            <label for="name">Full Name<span>*</span></label>
+                        </div>
+
+                        <div class="field-holder">
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">Email<span>*</span></label>
+                        </div>
+
+                        <div class="field-holder">
+                            <input type="text" name="mobileNo" id="mtel" required>
+                            <label for="mobileNo">Mobile Number<span>*</span></label>
+                        </div>
+
+                        <div class="field-holder">
+                            <input type="tel" name="whatsappNo" id="wtel" required>
+                            <label class="whatsappNo">Whatsapp Number<span>*</span></label>
+                        </div>
+
+                        <div class="gender">
+                            <label id="gender-label">Gender</label><br>
+                            <input type="radio" name="gender" value="M"> Male 
+                            &nbsp; &nbsp; &nbsp;
+                            <input type="radio" name="gender" id="" value="F"> Female
+                        </div>
+
+                        <div class="course">
+                            <label id="course">I want to study<span>*</span></label>
+                            <select id="select-course" required>
+                                <option >Select Course</option>
+                                <option value="FrontEnd Web Development">FrontEnd Web Development</option>
+                            </select>
+                        </div>
+
+                        <div class="payment-process">
+                           <div class="courseAmount-area">
+                             <div class="course-amount">
+                                <p id="title">Course Amount: &nbsp;</p>
+                                <p><span id="slashed">₦70,000</span> ₦50,000</p>
+                            </div>
+
+                            <div class="installment-div">
+                                <h5 id="title">Payment Process: <span class="installment">₦50,000(full payment) or 60% first installment 40% balance after one month</span></h5>
+                                
+                            </div>
+                           </div>
+                            
+                            <div id="duration">
+                                <span id="title">Course Duration:</span>
+                                <div class="icons">
+                                    <div class="icon">
+                                        <i class="fas fa-calendar-alt"></i>
+                                        <span>8 weeks</span>
+                                    </div>
+
+                                    <div class="icon">
+                                        <i class="fas fa-calendar"></i>
+                                            <span>3 days/week</span>
+                                    </div>
+
+                                    <div class="icon">
+                                        <i class="fas fa-clock"></i>
+                                            <span>2hrs/day</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="training-mode-div">
+                                <p class="training-mode">Training Mode: <span>Physical Class</span></p>
+                            </div>
+                        </div>
+                    
+                            <div class="date">
+                                <label id="date-label">Date<span>*</span></label>
+                                <input type="date" name="date" id="date" required>
+                            </div>
+                        
+                            <div class="hear-about">
+                                <p>How did you hear about us?</p>
+                                <ul>
+                                    <li><input type="checkbox" name="check" class="check" value="Google"> Google</li>
+                                    <li><input type="checkbox" name="check" class="check" value="Social Media"> Social Media</li>
+                                    <li><input type="checkbox" name="check" class="check" value="Billboard"> Billboard</li>
+                                    <li><input type="checkbox" name="check" class="check" value="Other"> Other</li>
+                                    <li class="referral-li">
+                                        <input type="checkbox" name="check" class="check" value="Word of Mouth/Referrals"> 
+                                        Word of Mouth/Referrals <i><a href="referral.html">referral policy & earning</a></i>
+                                        <input type="text" name="refereeId" id="refereeId" value="" placeholder="Enter Referral ID">
+                                        <span class="referral-error">Invalid Referral ID</span>
+                                    </li>
+                                </ul>
+                                To join and recieve referral earnings, provide your account details.
+                                <div class="account-details">
+                                    <input type="text" name="accName" id="" placeholder="Account Name">
+                                    <input type="number" name="accNo" id="" placeholder="Account No.">
+                                    <input type="text" name="bankName" id="" placeholder="Bank Name">
+                                </div>
+                            </div>
+                        <button>Register</button>
+                    </form>
+                </div>
+            </div>  
+        </section>
+    </main>
+
+    
+    <footer class="footer">
+        <div class="footer-items">
+            <div class="brand">
+                <img src="assets/img/Logo.png" alt="">
+            </div>
+
+            <div class="social-links">
+                <h1>Follow us on:</h1>
+                <a href="https://www.facebook.com/profile.php?id=100090562371669"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/GrayInkTech"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/grayinktech"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="contact-links">
+                <ul>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mail: info@grayinktech"> info@grayinktech</a></li>
+
+                    <li class="tel">
+                        <i class="fas fa-mobile"></i>
+                        <a href="tel: 08100493357"> +2348100493357</a>
+                    </li>
+    
+                    <li class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="#"> Abakaliki, Nigeria</a>
+                    </li>
+                </ul>
+        
+            </div>
+        </div>
+        <hr>
+        <p>Copyright &copy; 2023 GITechnologies</p>
+        <a href="https://wa.me/08100493357?text=Hello, Good day, I'm Interested in learning Web Development" target="_blank" class="whatsapp-div">
+            <span>Chat with us</span>
+           <img src="assets//img/whatsapp.png" alt="" class="whatsapp-img">
+        </a>
+    </footer>
+
+
+    <script src="js/formValidation.js"></script>
+    <script src="js/jquery3.6.1.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

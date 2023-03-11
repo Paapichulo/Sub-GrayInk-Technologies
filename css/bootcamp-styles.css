@@ -1,0 +1,160 @@
+.bootcamp{
+    background: linear-gradient(to right, rgba(41, 10, 10, 0.39), rgba(10, 10, 51, 0.295));
+    padding-top: 9rem !important;
+    color: var(--secondary-color);
+}
+
+.bootcamp article .banner{
+    width: 20%;
+    float: right;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+.bootcamp article h1{
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin: 2rem 0 0.50rem 0;
+    font-weight: normal;
+}
+
+.bootcamp article p{
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.bootcamp article p .head-text-html{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--red);
+}
+
+.bootcamp article p .head-text-css{color: cornflowerblue;}
+
+.bootcamp article p .head-text-bootstrap{color: rgb(97, 5, 201) }
+
+.bootcamp ul li{
+    margin: 0.80rem;
+    font-size: 1rem;
+}
+
+.bootcamp .sub-lists li{
+    margin: 5px;
+    list-style: disc inside;
+}
+
+.bootcamp article p .head-text-js{color: yellow;}
+
+.bootcamp article p .head-text-git{color: #6b1808;}
+
+.bootcamp article p .head-text-hosting{color: #43677c;}
+
+.bootcamp article p .head-text-SEO{color: rgb(197, 197, 197);}
+
+.bootcamp article p .head-text-freelance{color: #6b1808;}
+
+.bootcamp article .snippet{
+    width: 40%;
+    float: right;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    margin: 5rem 2rem 0 0 ;
+    transition: all 0.2s ease-in-out;
+    transform: rotate(20deg);
+}
+
+.bootcamp article .snippet:hover{transform: rotate(0);}
+
+.bootcamp article .difficult-circle{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: var(--secondary-color);
+}
+
+.bootcamp article .difficult-circle .circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.bootcamp article .html-circle .circle-1{background-color: green;}
+
+.bootcamp article .css-circle .circle-1{background-color: green;}
+.bootcamp article .css-circle .circle-2{background-color: green;}
+
+.bootcamp article .bootstrap-circle .circle-1{background-color: green;}
+
+.bootcamp article .js-circle .circle-1{background-color: green;}
+.bootcamp article .js-circle .circle-2{background-color: green;}
+.bootcamp article .js-circle .circle-3{background-color: green;}
+
+.bootcamp article .css-circle .circle-1{background-color: green;}
+.bootcamp article .css-circle .circle-2{background-color: green;}
+
+.bootcamp article .git-circle .circle-1{background-color: green;}
+.bootcamp article .git-circle .circle-2{position: relative;}
+.bootcamp article .git-circle .circle-2::before{
+    content: '';
+    height: 100%;
+    width: 50%;
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.bootcamp .others h1{
+    color: var(--secondary-color);
+    margin: 6rem 0 0 0;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.bootcamp .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bootcamp .content a{
+    background: linear-gradient(to right, rgba(41, 10, 10, 0.719), rgba(10, 10, 51, 0.582));
+    padding: 10px 20px;
+    border-radius: 45px;
+    color: antiquewhite;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.bootcamp .content div{margin-top: 1.4rem;}
+
+.bootcamp .content div:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+.bootcamp .enroll-btn{margin-top: 2rem;}
+
+.bootcamp .btn{
+    padding: .5rem 1rem;
+    color: var(--secondary-color);
+    background: transparent;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    font-family: var(--font-poppins);
+    transition: all 0.2s ease-in-out;
+}
+
+.bootcamp .btn:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.bootcamp .others .content > :first-child:hover{color: cornflowerblue !important;}
+
+.bootcamp .others .content :nth-child(2):hover{color: rgb(97, 5, 201) !important;}
+
+.bootcamp .others .content :nth-child(3):hover{color: yellow;}
+
+.bootcamp .others .content :nth-child(4):hover{color: rgb(0, 47, 255);}

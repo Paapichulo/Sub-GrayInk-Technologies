@@ -1,0 +1,22 @@
+.referrals{
+    background: linear-gradient(to right, rgba(41, 10, 10, 0.39), rgba(10, 10, 51, 0.295));
+    padding-top: 9rem !important;
+    color: var(--secondary-color);
+}
+
+.referrals p{color: var(--gray-light); line-height: 1.2;}
+
+.referrals h2{font-size: 1.2rem;}
+
+.referrals h3{
+    font-size: 1rem;
+    margin: 10px 0 0 0;
+}
+
+.referrals h4{
+    font-weight: normal;
+    font-size: 15px;
+    margin: 9px 0 5px 0;
+}
+
+.referrals article{margin: 0 0 2rem 0;}

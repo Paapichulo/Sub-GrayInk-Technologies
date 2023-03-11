@@ -1,0 +1,567 @@
+
+/* --------------------------MEDIA QUERIES----------------------------- */
+@media(max-width:330px){
+    .success-btn{
+        padding: 5px 8px;
+        font-size: 13px;
+    }
+}
+/* -------------MEDIA QUERY FOR 400PX--------------*/
+@media(max-width: 430px){
+        #nav .brand img{width: 120px !important;}
+    .intro-banner .intro-details p{font-size: 0.90rem;}
+
+    .about .skill-text article h1{
+        font-size: 1rem;
+    }
+
+    .about .skill-text article p,
+    .courses .course-head .title-text p,
+    .projects .projects-head .title-text p{font-size: 13px;}
+
+    .about .about-head .title h1{font-size: 1.1rem !important;}
+    .about .about-head img{width: 30px !important;}
+
+    .about-learning-process h1{
+    font-size: 15px !important;
+    }
+
+    .about-learning-process ul li{
+        font-size: 15px;
+        margin: .7rem 0 .7rem 10px;
+    }
+
+    .courses .course-head .title h1{ font-size: 1.1rem !important;}
+    .courses .course-head img{width: 30px !important;}
+
+    .projects .projects-details .title h1{
+        font-size: 1.2rem;
+    }
+
+    .projects .projects-details .card ul li:not(.head){
+        font-size: 13px !important;
+        padding: 10px;
+    }
+
+    .projects .projects-details .card ul li a{margin-left: 5px;}
+
+    .faq .faq-head h1{font-size: 1rem !important;}
+    .faq .faq-head img{width: 40px;}
+
+    .faq .accordion-header{
+        font-size: 16px;
+        padding: .75rem 5px;
+    }
+
+    .accordion-header::before{content: '+';}
+
+    .accordion-header h1{font-size: 0.70rem;}
+
+    .footer p{
+        text-align: center;
+        margin: .5rem 0;
+        font-size: .95rem;
+    }
+
+    .registration-section .modal-success-h1{
+        font-size: 1.2rem !important;
+    }
+
+    .modal-p{
+        font-size: 13px;
+    }
+
+    .modal-item h3{
+        font-size: .9rem;
+    }
+    
+    .modal-item h3 span{
+        font-size: 14px;
+        color: rgb(41, 40, 40);
+    }
+
+    .modal-btns h5{
+        font-size: 12px;
+    }
+
+    .registration-section .form-wrapper #duration .icons .icon{
+        flex-direction: column;
+        margin: .5rem .7rem 0 0;
+    }
+
+    .registration-section .form-wrapper #duration .icons .icon .fas{
+       font-size: .95rem;
+    }
+
+    .registration-section .payment-process .training-mode-div .training-mode{
+        gap: .2rem !important;
+        font-size: 1.2rem;
+    }
+
+    .registration-section .payment-process .training-mode-div .training-mode span{
+        font-size: 15px;
+    }
+}
+/* --------xx-----MEDIA QUERY FOR 400PX------xx--------*/
+
+
+
+
+
+/* -------------MEDIA QUERY FOR 640PX--------------*/
+@media(max-width: 640px){
+    #nav{padding: 20px 10px !important;}
+
+    .container{padding: 80px 10px !important;}
+
+    #site-main .intro-banner .intro-image{width: 100% !important;}
+
+    .courses-wrapper{grid-template-columns: repeat(1, 1fr) !important;}
+
+    .courses-wrapper .course-div{padding-bottom: 3rem;}
+
+    .courses-wrapper .course-div h2{font-size: 1rem; }
+    
+    .courses-wrapper .course-div p{
+        color: var(--gray-light);
+        margin: 0 .8rem 1.3rem .8rem;
+    }
+    .courses-wrapper .course-div img{width: 100%;}
+
+    .course-div .btn-link{margin: 2rem 0 !important;}
+    
+    .courses::after{height: 500px;}
+
+    .intro-banner .intro-details h1{font-size: 2rem}
+
+    .intro-banner .intro-details h3{font-size: 1.5rem;}
+
+    .learning-process-text{
+        flex-direction: column-reverse;
+        margin: 5rem 0 0 0;
+        padding: 0;
+    }
+
+    .learning-process-text .head{margin: 7rem 0 0 0;}
+
+    .about .about-head .title h1{font-size: 1.5rem;}
+    .about .about-head img{width: 40px !important;}
+
+    .courses .course-head .title h1{ font-size: 1.5rem;}
+    .courses .course-head img{width: 45px !important;}
+
+    .projects .projects-head .title h1{font-size: 1.5rem;}
+
+    .projects .projects-details .card ul li:not(.head){font-size: 16px;}
+    
+    .faq .faq-head h1{font-size: 1.1rem;}
+    .faq .faq-head img{width: 40px;}
+
+    .bootcamp article h1{font-size: 1.3rem;}
+
+    .accordion-header::before{font-size: 1rem !important;}
+
+    .about-us  p{
+        font-size: 15px;
+    }
+    .about-us img{width: 50%;}
+
+    .html-bootcamp article img{width: 30%;}
+
+    .projects-view .details-2{
+        width: 80%;
+        margin: 0 auto !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .projects-view .details-2 .js-video,
+    .projects-view .details-2 .js-video.todo{
+        border-radius: 25px !important
+
+    }
+
+    .contact-us .contact-links{display: block !important;}
+
+    .contact-us .contact-links .tel{margin: 3rem 0}
+
+    .footer .footer-items{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .registration-section .modal-success-h1{
+        font-size: 1.3rem;
+    }
+
+    .modal-item{width: 90% !important;}
+
+    .registration-section .form-wrapper{padding: 3rem 1rem;}
+    
+
+    .registration-section .form-wrapper label:not(#course, #date-label, #gender-label){
+
+        font-size: .95rem !important;
+    }
+
+    .registration-section .form-wrapper .payment-process .course-amount{
+        flex-direction: column;
+        gap: 0 !important;
+    }
+
+    .registration-section .form-wrapper .payment-process .course-amount :nth-child(2){
+        transform: translateY(-.7rem);
+    }
+
+    
+.registration-section .installment-div #title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+    .registration-section .form-wrapper .payment-process p{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .registration-section .form-wrapper #duration{flex-direction: column;}
+
+    .registration-section .payment-process .training-mode-div{
+        justify-content: center;
+        margin-top: 1rem;
+      }
+
+    .registration-section .form-wrapper .account-details{
+        flex-direction: column;
+        /* gap: .7rem; */
+        margin-top: .5rem;
+    }
+    
+    .registration-section .form-wrapper .account-details input{
+       border: 1px solid var(--gray-light); 
+       border-radius: 5px;
+       padding: 5px 10px !important;
+       margin: 0 !important;
+    }
+
+}
+/* --------xx-----END MEDIA QUERY FOR 640PX--------xx------*/
+
+
+
+
+
+/* -------------MEDIA QUERY FOR 768PX--------------*/
+@media(max-width: 768px){
+    /* .intro-banner{
+        background:linear-gradient(to right, #03080f81, #03080f81), url(/assets/img/bg-curvy-mobile.svg) no-repeat bottom;
+        background-size: contain;
+    } */
+    
+    .intro-banner .intro-image{width: 80%;}
+
+    .about .about-head h1,
+    .courses .course-head h1{font-size: 1.6rem;}
+
+    .about .about-head img,
+    .courses .course-head img{ width: 70px;}
+
+    .projects .projects-details{grid-template-columns: repeat(1, 1fr);}
+
+    .about-learning-process .grid-images .grid-one,
+    .about-learning-process .grid-images .grid-two{transition: all 0.45s ease-in-out;}
+
+    .about-learning-process .grid-images .grid-one .img-1{
+        width: 150px !important;
+        height: 200px !important;
+    }
+    
+    .about-learning-process .grid-images .grid-one .img-2{
+        width: 150px !important;
+        height: 200px !important;
+    }
+    
+    .about-learning-process .grid-images .grid-two .img-3{
+        width: 150px !important;
+        height: 200px !important;
+    }
+
+    .faq .accordion{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+
+    .faq .accordion .grid-2{
+        max-height: 0;
+        overflow: hidden;
+        transition: 0.45s ease-in-out;
+    }
+
+    .faq .accordion .grid-2.grid-down{max-height: 100%;}
+
+    .faq .btn-link{
+        text-align: end;
+        display: block !important;
+        transition: 0.45s ease;
+    }
+
+    .projects-view{
+        padding-top: 7rem !important;
+    }
+
+    .projects-view .details{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5rem !important;
+
+    }
+
+    .projects-view .details-2 .js-video{
+        width: 60%;
+        margin: 0 0 2rem 0;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .projects-view .details-2 .js-video.todo{
+        width: 86% !important;
+    }
+    
+    .projects-view .details-2 .js-video{
+        width: 80%;
+    }
+
+    .projects-view .details .mobile-video{right: -10px;}
+
+    .projects-view .details-2{grid-template-columns: repeat(2, 1fr);}
+
+
+    .registration-section .form-wrapper{width: 100% !important;}
+
+    .footer{padding-bottom: 2rem !important;}
+
+    .modal-item{width: 70%;}
+
+    .modal-img{width: 100px;}
+
+    .footer .footer-items .social-links a{
+        padding: 3px 8px;
+        margin-right: .9rem !important;
+        font-size: 1.2rem;
+    }
+
+}
+/* --------xx--------END MEDIA QUERY FOR 768PX---------XX-----*/
+
+
+
+
+
+/* ----------------MEDIA QUERY FOR 900px-----------*/
+@media (max-width: 900px) {
+    #nav{padding: 20px 20px;}
+    #nav .brand img{width: 150px;}
+
+    .nav-items ul li a,
+    .nav-items a{pointer-events: none;}
+
+    .nav-items .btn{
+        display: inline  !important;
+    }
+
+
+    .toggle-btn{
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        width: 2rem;
+        height: 1.5rem;
+        cursor: pointer;
+        transition: 0.45s ease;
+        display: block;
+    }
+    
+    .burger-container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding: 0 1px;
+    }
+    
+    .burger-container :nth-child(1){
+        position: absolute;
+        top: 4px;
+        width: 30px;
+        height: 3px;
+        background-color:var(--secondary-color);
+        transition: 0.45s ease;
+    }
+    
+    .burger-container :nth-child(2){
+        position: absolute;
+        top: 10px;
+        width: 30px;
+        height: 3px;
+        background-color:var(--secondary-color);
+        transition: 0.45s ease;
+    }
+    
+    .burger-container :nth-child(3){
+        position: absolute;
+        top: 16px;
+        width: 30px;
+        height: 3px;
+        background-color:var(--secondary-color);
+        transition: 0.45s ease;
+    }
+    
+    .burger1{
+        top: 10px !important;
+        transform: rotate(45deg);
+    }
+    
+    .burger2{opacity: 0;}
+    
+    .burger3{
+        top: 10px !important;
+        transform: rotate(-45deg);
+    }
+        .collapse{
+        position: absolute;
+        text-align: center;
+        overflow: hidden;
+        background-color: #000000ea;
+        transition: 0.45s ease-in-out;
+        padding: 95px 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 0;
+        width: 100vw;
+        opacity: 0;
+    }
+
+    .show-nav,
+    .show-nav .nav-items ul li a,
+    .show-nav .nav-items a{
+        height: 100vh;
+        max-height: 100vh;
+        opacity: 1;
+        pointer-events: all;
+    }
+
+
+    .nav-items,
+    .nav-items ul{
+        flex-direction: column;
+    }
+
+    .show-nav .nav-items ul li a{font-size: 1.5rem;}
+
+    .about-learning-process{gap: 10px;}
+    
+    .about-learning-process .grid-images .grid-one{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .container{padding: 80px 20px;}
+
+    .courses-wrapper{column-gap: 20px;}
+
+    .about-us .about-skill{padding: 10px 20px !important;}
+
+    .about-us .about-institute{padding: 0 20px 1rem 20px !important;}
+
+    .projects .details{gap: 2rem;}
+
+    .projects .projects-details .mobile-video{right: 50px !important;}
+
+    .projects-view .btn{
+        right: unset;
+        left: 20px;
+    }
+
+    .footer{padding: 30px 20px;}
+
+    .footer .brand img{width: 150px;}
+
+
+}
+/* --------xx--------END MEDIA QUERY FOR 900PX---------XX-----*/
+
+
+
+
+
+/* --------xx--------END MEDIA QUERY FOR 1000PX---------XX-----*/
+@media(max-width: 1000px){
+    .nav-items .btn{
+        display: none;
+    }
+
+
+    .about .about-skill{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 40px;
+    }
+
+    .about-learning-process .grid-images .grid-one .img-1{
+        width: 190px;
+        height: 220px;
+    }
+    
+    .about-learning-process .grid-images .grid-one .img-2{
+        width: 190px;
+        height: 220px;
+    }
+    
+    .about-learning-process .grid-images .grid-two .img-3{
+        width: 190px;
+        height: 220px;
+    }
+}
+/* --------xx--------END MEDIA QUERY FOR 1000PX---------XX-----*/
+
+
+
+
+
+/* --------xx--------END MEDIA QUERY FOR 1062PX---------XX-----*/
+@media(max-width: 1062px){
+    .projects .projects-details .card ul li.head{margin-top: -3px;}
+
+    .contact-us .contact-links{gap: 7rem !important;}
+
+    .contact-us .contact-links a{font-size: 1rem !important;}
+}
+/* --------xx--------END MEDIA QUERY FOR 1062PX---------XX-----*/
+
+
+
+
+
+
+/* ---------------MEDIA QUERY FOR 1200PX--------------*/
+@media(max-width: 1200px){
+    .nav-items{gap: 50px;}
+
+   .nav-items ul{
+       gap: 50px;
+       margin-right: 20px;
+   }
+
+   .nav-items img{margin-right: 30;}
+
+    .courses-wrapper{
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+
+    .registration-section .form-wrapper{
+        width: 90%;
+    }
+}
+/* --------xx--------END MEDIA QUERY FOR 1200PX---------XX-----*/
