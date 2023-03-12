@@ -241,7 +241,7 @@
     .registration-section .form-wrapper .account-details input{
        border: 1px solid var(--gray-light); 
        border-radius: 5px;
-       padding: 5px 10px !important;
+       padding: 10px 10px !important;
        margin: 0 !important;
     }
 
