@@ -108,8 +108,6 @@ const getRandomIds = ()=>{
 }
 
 
-const whatsappDiv = document.querySelector('.whatsapp-div');
-whatsappDiv.onclick = ()=> window.location.href = "https://wa.me/08100493357?text=Hello, Good day, I'm Interested in learning Web Development";
 // -------LABEL TRANSITION ON INPUT FOCUS------------
 // const inputFields = document.querySelectorAll("input[type='text'], input[type='tel'], input[type='email']");
 // const labels = document.querySelectorAll('label');
